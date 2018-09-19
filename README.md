@@ -4,7 +4,7 @@
 
 React To-Do List is a simple app built in React where you an enter in to-do items in a list.   
 ## Screenshots
-<img src="https://github.com/chrisliew/react-to-do/blob/master/docs/1.png" height="400px" width="800px">
+<img src="https://github.com/chrisliew/react-to-do/blob/master/docs/1.png" height="1200px" width="800px">
 
 ## Dependencies
 

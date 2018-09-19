@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #4776E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #1b590a;
+  min-width: 600px;
+  box-shadow: 10px 10px 5px #0f0f0f;
+  border-radius: 5px;
+
+}
+
+.main-content {
+  border: 1px solid black;
+}
+
+.titles {
+  height: 150px;
+  background: #8958c1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(
+    0 0, /* left top */
+    100% 0, /* right top */ 
+    100% 80%, /* right bottom */
+    0 100% /* left bottom */
+  );
+}
+
+.main-title {
+  font-size: 4em;
+  margin: 0;
+  padding-top: 15px;
+  margin-bottom: -15px; 
+}
+
+
+/********************** CREATE TASK **************************/
+
+
+.new-task {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.submit-task{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #8958c1;
+  font-size: 25px;
+  padding: 8px;
+}
+
+.tasksTable {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+}
+
+td {
+  padding-right: 20px;
+}
+  
+th {
+  padding-right: 20px;
+}
+
+.clear {
+  margin-top: 15px;
+  margin-right: 8px;
+  font-size: 25px;
+  padding: 10px;
+  background: #8958c1;
+  margin-bottom: 20px;
+}
+
+.reset {
+  margin-top: 15px;
+  margin-left: 8px;
+  font-size: 25px;
+  padding: 10px;
+  background: #8958c1;
+  margin-bottom: 20px;
+}
+
+.deleteButton {
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  padding-top: 10px;
+  vertical-align: center;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  background: #8958c1;
+}
